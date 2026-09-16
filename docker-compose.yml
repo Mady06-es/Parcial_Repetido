@@ -1,0 +1,8 @@
+services:
+ 
+  apache:
+   build: ./Apache
+   container_name: Parcial_repetido
+   restart: always
+   volumes:
+   - C:\Users\PC-27\Desktop
